@@ -2,7 +2,7 @@
 
 > Modern, responsive developer portfolio built with Next.js, TypeScript, and Tailwind CSS to showcase my projects and technical skills.
 
-🔗 **Live Website:** [https://portfolio-seven-dun-86.vercel.app](https://portfolio-seven-dun-86.vercel.app)
+🔗 **Live Website:** [ Personal Developer Portfolio](https://ayushbhalla-ai.vercel.app/)
 
 ---
 
