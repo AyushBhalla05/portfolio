@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Github, Linkedin, Mail, ChevronDown } from "lucide-react";
+import { Github, Linkedin, Mail, ChevronDown, FileText } from "lucide-react";
 import { useEffect, useState } from "react";
 
 export default function Hero() {
@@ -83,6 +83,16 @@ export default function Hero() {
             <span className="relative flex items-center gap-2">
               Explore My Journey
             </span>
+          </a>
+
+          <a
+            href="/resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group relative px-6 py-4 bg-white/5 hover:bg-white/10 rounded-full font-semibold text-gray-200 border border-white/20 transition-all hover:scale-105 hover:border-cyan-400/50 hover:shadow-[0_0_20px_rgba(0,255,255,0.3)] flex items-center gap-2"
+          >
+            <FileText size={18} className="text-cyan-400" />
+            <span>View Resume</span>
           </a>
           
           <div className="flex items-center gap-4">

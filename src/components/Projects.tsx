@@ -1,17 +1,17 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ExternalLink, BarChart, Database, ShoppingBag, Brain, Cpu } from "lucide-react";
+import { ExternalLink, Database, Brain, Cpu } from "lucide-react";
 
 const projects = [
   {
-    title: "Techvault E-Commerce",
-    description: "Full-stack e-commerce application featuring secure authentication, a dynamic product catalog, and a complete checkout flow.",
-    tech: ["TypeScript", "React", "Node.js", "MongoDB"],
-    icon: ShoppingBag,
-    color: "from-purple-500/20 to-pink-500/20",
-    border: "group-hover:border-purple-500/50",
-    link: "https://github.com/AyushBhalla05/Techvault-E-Commerce-app"
+    title: "GesturePilot - Vision PC Control",
+    description: "A modular, real-time hand gesture recognition system to control PC operations seamlessly using Computer Vision.",
+    tech: ["Python", "OpenCV", "MediaPipe", "Computer Vision"],
+    icon: Cpu,
+    color: "from-cyan-500/20 to-blue-500/20",
+    border: "group-hover:border-cyan-500/50",
+    link: "https://github.com/AyushBhalla05/GesturePilot"
   },
   {
     title: "Local Food Wastage Management",
