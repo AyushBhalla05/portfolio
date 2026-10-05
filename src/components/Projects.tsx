@@ -14,9 +14,18 @@ const projects = [
     link: "https://github.com/AyushBhalla05/GesturePilot"
   },
   {
+    title: "Explainable AI: Retinopathy Screening",
+    description: "Smart India Hackathon 2026: MATLAB-based retinal image analysis pipeline with Grad-CAM explainability for rural healthcare screening.",
+    tech: ["MATLAB", "Computer Vision", "Deep Learning", "Grad-CAM"],
+    icon: Brain,
+    color: "from-purple-500/20 to-pink-500/20",
+    border: "group-hover:border-purple-500/50",
+    link: "https://github.com/AyushBhalla05"
+  },
+  {
     title: "Local Food Wastage Management",
     description: "A Streamlit and SQL-based application addressing food wastage by connecting surplus food providers with NGOs and individuals in need.",
-    tech: ["Python", "Streamlit", "SQL"],
+    tech: ["Python", "Streamlit", "SQLite", "Pandas"],
     icon: Database,
     color: "from-emerald-500/20 to-teal-500/20",
     border: "group-hover:border-emerald-500/50",
@@ -30,15 +39,6 @@ const projects = [
     color: "from-blue-500/20 to-cyan-500/20",
     border: "group-hover:border-blue-500/50",
     link: "https://github.com/AyushBhalla05/email-spam-detector"
-  },
-  {
-    title: "Secure Password Generator",
-    description: "A Python utility that programmatically generates highly secure, randomized passwords to enhance digital security.",
-    tech: ["Python", "Security", "Scripting"],
-    icon: Cpu,
-    color: "from-yellow-500/20 to-orange-500/20",
-    border: "group-hover:border-yellow-500/50",
-    link: "https://github.com/AyushBhalla05/password-generator"
   }
 ];
 

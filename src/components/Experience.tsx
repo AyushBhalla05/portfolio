@@ -6,38 +6,38 @@ import { GraduationCap, Briefcase, BookOpen, Award } from "lucide-react";
 export default function Experience() {
   const timeline = [
     {
+      type: "experience",
+      title: "Artificial Intelligence Intern",
+      institution: "OutriX (Virtual)",
+      date: "Jul 2025 – Sep 2025",
+      description: "Learnt core concepts of Artificial Intelligence, Machine Learning, and data-driven problem solving. Implemented AI workflows and practical tasks in Python.",
+      icon: Briefcase,
+      color: "text-cyan-400"
+    },
+    {
       type: "education",
       title: "BCA in Artificial Intelligence",
-      institution: "Invertis University",
-      date: "Aug 2024 – Present",
-      description: "Pursuing a bachelor's degree with a current CGPA of 8.02. Studying Data Analytics, Client-Side Scripting, C Programming, and AI Fundamentals.",
+      institution: "Invertis University, Bareilly",
+      date: "2024 – 2027 (5th Sem)",
+      description: "Studying Artificial Intelligence, Machine Learning, Data Analytics, Python, DBMS, DSA, Operating Systems, Linux/Unix, and Power BI.",
       icon: GraduationCap,
       color: "text-purple-400"
     },
     {
       type: "experience",
-      title: "Social Media Manager",
-      institution: "Muskurahat Foundation",
-      date: "Aug 2023 – Nov 2023",
-      description: "Managed online presence, created engaging posts, and grew brand visibility using digital marketing tools like Canva and Meta Business Suite.",
-      icon: Briefcase,
-      color: "text-cyan-400"
-    },
-    {
-      type: "experience",
-      title: "Fundraising Volunteer",
-      institution: "Pawzz Felware Foundation",
-      date: "Jul 2023 – Aug 2023",
-      description: "Successfully collected donations and actively promoted animal welfare awareness through local and online outreach.",
+      title: "Explainable AI Researcher",
+      institution: "Smart India Hackathon 2026",
+      date: "2026",
+      description: "Designed a MATLAB-based explainable retinal image analysis pipeline for rural diabetic retinopathy screening with Grad-CAM explainability.",
       icon: Award,
       color: "text-emerald-400"
     },
     {
       type: "education",
-      title: "Higher Secondary & High School",
-      institution: "JP Inter College & Astal Swarswati",
+      title: "Intermediate (12th) & High School (10th)",
+      institution: "JP Inter College",
       date: "2021 – 2024",
-      description: "Ranked in the top 10% in Intermediate and was the School Topper in High School with a strong foundation and excellence in Mathematics.",
+      description: "Class 12: 67.6% (2024) | Class 10: 73.5% (2021) with a strong foundation in Mathematics and Science.",
       icon: BookOpen,
       color: "text-pink-400"
     }
